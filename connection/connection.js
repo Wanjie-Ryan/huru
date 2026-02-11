@@ -4,7 +4,7 @@ mongoose.set("strictQuery", false);
 
 const connectDB = (url) => {
   console.log(url)
-  // logging to see the url
+  // logging to see the urls 
   return mongoose.connect(url);
 };
 
