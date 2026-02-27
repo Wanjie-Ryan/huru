@@ -38,7 +38,7 @@ const DBConnection = async () => {
       console.log(`server is running on port, ${port}`);
     });
   } catch (err) {
-    console.log("running as expected")
+    console.log("running is ok")
     console.log(err);
     process.exit(1);
   }
