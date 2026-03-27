@@ -34,7 +34,7 @@ const DBConnection = async () => {
     await connectionDB(process.env.mongo_url);
 
     app.listen(port, () => {
-      console.log("running")
+      console.log("runnings")
       console.log(`server is running on port, ${port}`);
     });
   } catch (err) {
