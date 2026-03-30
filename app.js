@@ -8,7 +8,7 @@ const { StatusCodes } = require("http-status-codes");
 const connectionDB = require("./connection/connection");
 
 app.use(cookie());
-app.use(express.json());
+app.use(express.json())
 
 app.use(
   cors({
