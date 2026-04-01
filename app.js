@@ -5,7 +5,7 @@ const cors = require("cors");
 const cookie = require("cookie-parser");
 require("dotenv").config();
 const { StatusCodes } = require("http-status-codes");
-const connectionDB = require("./connection/connection");
+const connectionDB = require("./connection/connection")
 
 app.use(cookie());
 app.use(express.json())
