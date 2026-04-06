@@ -35,7 +35,7 @@ const DBConnection = async () => {
 
     app.listen(port, () => {
       console.log("runnings")
-      console.log(`server is running on port, ${port}`);
+      console.log(`server running on port, ${port}`);
     });
   } catch (err) {
     console.log("running is ok")
