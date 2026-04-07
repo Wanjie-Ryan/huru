@@ -31,7 +31,7 @@ app.get("/wake-up", (req, res) => {
 
 const DBConnection = async () => {
   try {
-    await connectionDB(process.env.mongo_url);
+    await connectionDB(process.env.mongo_url)
 
     app.listen(port, () => {
       console.log("runnings")
