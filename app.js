@@ -25,7 +25,7 @@ app.use(
 app.get("/wake-up", (req, res) => {
   res.json({
     responseType: "success",
-    message: "Server is awake, ready",
+    message: "Server is awake, and ready",
   });
 });
 
